@@ -1,0 +1,33 @@
+.container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 40px;
+  margin-top: 40px;
+}
+
+.search-bar {
+  margin-left: 10px;
+  display: flex;
+}
+.search-bar input {
+  margin: 0;
+  padding: 0;
+  width: 220px;
+}
+.search-bar input::placeholder {
+  padding-left: 15px;
+  color: var(--dsc-color-font-placeholder);
+}
+
+.search-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 77px;
+  height: 40px;
+  background: #00285f;
+  color: #fff;
+  font-family: roboto;
+  font-size: 14px;
+  border-radius: 0 5px 5px 0;
+}
