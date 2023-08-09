@@ -1,0 +1,15 @@
+.btn-comprar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    border-radius: 5px;
+    background-color: #00285f;
+    width: 220px;
+    height: 40px;
+    font-weight: 700;
+  }
+
+  .btn-comprar :hover {
+    cursor: pointer;
+  }
